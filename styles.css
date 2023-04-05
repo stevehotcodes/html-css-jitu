@@ -1,0 +1,87 @@
+body{
+    font-family:Calibria,san-serif,Arial ;
+}
+.container{
+   border-radius: 20px;
+   display: flex;
+   flex-direction: row;
+   background-color:white;
+   box-shadow:2px 6px 30px;
+   width:50vw;
+   
+
+      
+}
+.result,.summary{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result{
+    background-color:#1a7ba8;
+    display: flex;
+    justify-content: center;
+    color:white;
+    border-radius: 20px;
+}
+.summary{
+    
+    height: 100%;
+    
+}
+.scorewrapper{
+    display: grid;
+    place-content: center;
+    border-radius: 100%;
+    border: none;
+    background-color:rgba(35, 18, 134, 0.466);
+    width:50%;
+    margin: 20px;
+    padding: 20px;
+}
+.center{
+    margin:0 0 0 10px;
+    padding:0px 0 0 10px;
+    
+}
+
+.summary-content{
+    display:flex;
+    background-color: bisque;
+    margin:10px;
+    border-radius: 9px;
+}
+.bold{
+    font-weight: bold;
+}
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+.left-padding{
+    margin-left:20px;
+}
+.button{
+    background-color: black;
+    color:white;
+    width:250px;
+    padding:10px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 20px;
+    
+}
+#number {
+    font-size:70px;
+    padding: 20px;
+    margin: auto;
+}
+svg{
+    padding: 12px 0px 12px 12px;
+}
+.left-align{
+    margin-left:-20px;
+}
